@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.droidrss.view"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="17" />
+    
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        
+        <activity
+            android:name="com.droidrss.view.SplashDroidRSS"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity 
+            android:name="com.droidrss.view.StartActivity"
+            android:label="DroidRSS Start Activity"
+            />
+        
+        <activity 
+            android:name="com.droidrss.view.NewAccountActivity"
+            android:label="New Account"
+            android:theme="@android:style/Theme.Dialog"
+            />
+        
+        <activity 
+            android:name="com.droidrss.view.MainActivity"
+            android:label="DroidRSS"
+            />
+        
+        <activity 
+            android:name="com.droidrss.view.FeedsListActivity"
+            android:label="DroidRSS"
+            />
+        
+        <activity 
+            android:name="com.droidrss.view.FeedItemShowActivity"
+            android:label="DroidRSS"
+            />
+        
+        <activity 
+            android:name="com.droidrss.view.AboutDroidRSSActivity"
+            android:label="About DroidRSS"
+            android:theme="@android:style/Theme.Dialog"
+            />
+        
+    </application>
+
+</manifest>

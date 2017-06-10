@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- GENERAL VALUES -->
+    <string name="app_name">DroidRSS</string>
+    <string name="menu_settings">Settings</string>
+    <string name="g_channel">Channels</string>
+    <string name="g_users">Users</string>
+    
+    <!-- VALUES FOR CREATE ACCOUNT AND LOGIN -->
+    <string name="btn_login">Login</string>
+    <string name="btn_newProfile">New profile</string>
+    <string name="prompt_user">User</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in_short">action_sign_in_short</string>
+    
+    <string name="tv_username">Username</string>
+    <string name="tv_password">Password</string>
+    <string name="tv_user">User</string>
+    <string name="tv_mail">Mail</string>
+    <string name="bt_createAccount">Create</string>
+    
+    <!-- VALUES FOR PROFILE FRAGMENT -->
+    <string name="fp_capSubscriptions">Suggestions</string>
+    <string name="fp_capFollowers">Followers</string>
+    <string name="fp_capFollowings">Followings</string>
+    
+    <!-- VALUES FOR FEEDS FRAGMENT -->
+    <string name="ff_bt_userFeeds">User feeds</string>
+    <string name="ff_bt_uFavFeeds">User favorites</string>
+    <string name="ff_bt_fFavFeeds">Followings favorites</string>
+    
+	<!-- VALUES FOR FEEDITEM SHOW -->
+    <string name="fis_title">TITLE</string>
+    <string name="fis_author">AUTHOR</string>
+    <string name="fis_pubdate">DATE</string>
+    <string name="fis_content">CONTENT</string>
+    <string name="fis_url">URL</string>
+    
+    <!-- VALUES FOR CONTEXT MENU -->
+    <string name="mi_about">About DroidRSS</string>
+    <string name="mi_addChannel">Add Channel</string>
+    <string name="mi_addSubscription">Add Subscription</string>
+    <string name="mi_delChannel">Cancel subscription</string>
+    <string name="mi_searchChannel">Search channels</string>
+    <string name="mi_searchUser">Search user</string>
+    
+    <!-- VALUES FOR ABOUT INFO -->
+    <string name="about_info">DroidRSS Android\nIES Provençana Final project DAM\nIván Mora, Xavi Rueda\n2013</string>
+    
+    <!-- VALUES FOR DIALOGS AND TOAST-->
+    <string name="title_alert_dialog">Are you sure? This can\'t be undone</string>
+    <string name="title_alert_dialog_sub">Do you want to subscribe to this channel?</string>
+    <string name="maAlert_tv_title_channel">Search a RSS channel</string>
+    <string name="maAlert_tv_title_user">Search an User</string>
+    <string name="maAlert_bt_OK">OK</string>
+    <string name="maAlert_bt_CANCEL">Cancel</string>
+    <string name="maAlert_addChannel">Add RSS Channel</string>
+    <string name="maAlert_channelAdded">Channel added</string>
+    <string name="maAlert_failChannelAdded">Fail adding channel</string>
+    <string name="maAlert_addSubscription">Done adding subscription</string>
+    <string name="maAlert_addFolloing">Done adding following</string>
+    <string name="maAlert_failLogin">Fail login, maybe user doesn\'t exits or connection is failing</string>
+    <string name="maAlert_failCreatingAccoung">Fail creating the new profile</string>
+    
+</resources>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+ 
+        <TextView
+            android:id="@+id/textView1"
+            android:text="@string/tv_username"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+ 
+        <EditText
+            android:id="@+id/et_username"
+            android:ems="10"
+            android:inputType="text" />
+        
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+ 
+        <TextView
+            android:id="@+id/textView2"
+            android:text="@string/tv_mail"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+ 
+        <EditText
+            android:id="@+id/et_mail"
+            android:ems="10"
+            android:inputType="textEmailAddress" />
+        
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+ 
+        <TextView
+            android:id="@+id/textView3"
+            android:text="@string/tv_user"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+ 
+        <EditText
+            android:id="@+id/et_user"
+            android:ems="10"
+            android:inputType="textPersonName" />
+        
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+ 
+        <TextView
+            android:id="@+id/textView4"
+            android:text="@string/tv_password"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+ 
+        <EditText
+            android:id="@+id/et_password"
+            android:ems="10"
+            android:inputType="textPassword" />
+        
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/tableRow5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+ 
+        <Button 
+            android:id="@+id/bt_addNewUser"
+            android:layout_span="2"
+            android:text="@string/bt_createAccount"
+            />
+    
+    </TableRow>
+    
+</TableLayout>
